@@ -1,0 +1,7 @@
+{
+  "display_name": "ST Markdown Preview",
+  "version": "1.0.0",
+  "author": "User",
+  "js": "index.js",
+  "css": "style.css"
+}
