@@ -13,4 +13,4 @@ Clicking it helps you read text with proper Markdown instead of just the raw tex
 
 That's literally it.
 
-
+P.S This extension also hides folders except for folder-only view. Just personal preference lol sorry xD.
