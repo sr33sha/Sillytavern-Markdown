@@ -28,6 +28,7 @@
     line-height: 1.6;
     white-space: normal;
     word-wrap: break-word;
+    font-size: 12px;
 }
 
 .st-md-preview-content h1,
@@ -47,6 +48,24 @@
     border-left: 3px solid var(--SmartThemeQuoteColor);
     padding-left: 12px;
     opacity: 0.9;
+}
+
+.st-md-preview-close-btn {
+    margin-top: 16px;
+    padding: 6px 20px;
+    border-radius: 6px;
+    border: 1px solid var(--SmartThemeBorderColor);
+    background: var(--SmartThemeBlurTintColor);
+    color: var(--SmartThemeBodyColor);
+    cursor: pointer;
+    font-size: 12px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.st-md-preview-close-btn:hover {
+    opacity: 0.85;
 }
 
 #rm_print_characters_block .ch_name,
