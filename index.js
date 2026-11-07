@@ -46,11 +46,12 @@
         box.style.boxShadow = "0 0 20px rgba(0,0,0,0.5)";
 
         const contentDiv = document.createElement("div");
+        contentDiv.className = "st-md-preview-content";
         contentDiv.innerHTML = parseMarkdown(content);
 
         const closeBtn = document.createElement("button");
         closeBtn.textContent = "OK";
-        closeBtn.style.marginTop = "20px";
+        closeBtn.className = "st-md-preview-close-btn";
         closeBtn.onclick = () => modal.remove();
 
         box.appendChild(contentDiv);
